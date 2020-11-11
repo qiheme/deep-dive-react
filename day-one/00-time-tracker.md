@@ -7,5 +7,8 @@
   * Overview of Class Component
   * Overview of Functional Component (Using Hooks)
 * First Activity: 30 mins
-  * First Activity: 30 minutes (02-first-activity)
-  * 
+* Second Lesson: 40 - 50 minutes (03-conditional-rendering/04-react-routing)
+  * Using state to alter rendered components
+  * Show different components based on React Routes and Router
+* Second Activity: 30 - 45 minutes (05-react-routing-activity)
+* Bonus Activity: (06-bonus-fullstack-react)
