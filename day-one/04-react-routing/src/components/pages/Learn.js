@@ -3,7 +3,7 @@ import React from "react";
 function Learn() {
   return (
     <div>
-      <h1 className="text-center">hello</h1>
+      <h1 className="text-center">Learn More</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel
         dictum justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
