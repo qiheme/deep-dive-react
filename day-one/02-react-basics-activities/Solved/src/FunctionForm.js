@@ -13,7 +13,8 @@ export default function FunctionForm() {
     const {name, value} = event.target;
 
     // Updating the input's state
-    setFormState(...formState, {
+    setFormState({
+      ...formState,
       [name]: value,
     });
   };

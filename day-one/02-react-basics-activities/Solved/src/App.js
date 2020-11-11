@@ -1,4 +1,5 @@
 import KlassForm from "./KlassForm";
+import FunctionForm from "./FunctionForm";
 
 import logo from "./logo.svg";
 import "./App.css";
@@ -19,7 +20,7 @@ function App() {
         >
           Learn React
         </a>
-        <KlassForm />
+        <FunctionForm />
       </header>
     </div>
   );
