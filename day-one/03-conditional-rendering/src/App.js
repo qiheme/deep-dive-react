@@ -28,7 +28,11 @@ function App() {
         <p>
           Click <code>Animate</code> to bring the gif to life.
         </p>
-        <button type="button" class="btn btn-success" onClick={toggleAnimate}>
+        <button
+          type="button"
+          className="btn btn-success"
+          onClick={toggleAnimate}
+        >
           Animate
         </button>
       </header>

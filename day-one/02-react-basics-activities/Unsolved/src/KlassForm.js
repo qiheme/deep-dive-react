@@ -37,35 +37,35 @@ export default class KlassButton extends React.Component {
     return (
       <>
         <form onSubmit={this.handleFormSubmit}>
-          <div class="form-group">
+          <div className="form-group">
             <label for="exampleInputEmail1">Email address</label>
             <input
               value={this.state.email}
               name="email"
               onChange={this.handleInputChange}
               type="email"
-              class="form-control"
+              className="form-control"
               id="exampleInputEmail1"
               aria-describedby="emailHelp"
               placeholder="Enter email"
             />
-            <small id="emailHelp" class="form-text text-muted">
+            <small id="emailHelp" className="form-text text-muted">
               We'll never share your email with anyone else.
             </small>
           </div>
-          <div class="form-group">
+          <div className="form-group">
             <label for="exampleInputPassword1">Password</label>
             <input
               value={this.state.password}
               name="password"
               onChange={this.handleInputChange}
               type="password"
-              class="form-control"
+              className="form-control"
               id="exampleInputPassword1"
               placeholder="Password"
             />
           </div>
-          <button type="submit" class="btn btn-primary">
+          <button type="submit" className="btn btn-primary">
             Submit
           </button>
         </form>
