@@ -36,7 +36,7 @@ export default function FunctionForm() {
 
   useEffect(() => {
     console.log(formState);
-  }, []);
+  }, [formState]);
 
   return (
     <>
