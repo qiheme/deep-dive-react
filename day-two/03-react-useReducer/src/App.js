@@ -21,13 +21,13 @@ export default function App() {
     <>
       Count: {state.count}
       <button
-        className="btn btn-success"
+        className="btn btn-danger"
         onClick={() => dispatch({type: "decrement"})}
       >
         -
       </button>
       <button
-        className="btn btn-danger"
+        className="btn btn-success"
         onClick={() => dispatch({type: "increment"})}
       >
         +
@@ -35,5 +35,3 @@ export default function App() {
     </>
   );
 }
-
-export default App;
