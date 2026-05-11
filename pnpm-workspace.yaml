@@ -1,0 +1,7 @@
+packages:
+  # Lessons listed here have been migrated to Vite + React 19 + cobalt.
+  # As more lessons are migrated, append them. Legacy CRA lessons are
+  # intentionally excluded from the workspace until they're modernized,
+  # so a single `pnpm install` from the repo root never has to resolve
+  # mixed React 17/19 trees.
+  - "day-one/01-react-basics"
