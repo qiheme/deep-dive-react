@@ -1,2 +1,17 @@
 node_modules/
 .DS_Store
+
+# Vite outputs
+dist/
+*.local
+.env
+.env.local
+.env.*.local
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Logs
+*.log

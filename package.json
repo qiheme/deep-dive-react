@@ -1,0 +1,15 @@
+{
+  "name": "deep-dive-react",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Curriculum for the Deep Dive React workshop — Vite + React 19 + @q-labs/cobalt.",
+  "scripts": {
+    "build:all": "pnpm -r build",
+    "dev:all": "pnpm -r --parallel dev"
+  },
+  "engines": {
+    "node": ">=20",
+    "pnpm": ">=9"
+  },
+  "packageManager": "pnpm@9.12.0"
+}
